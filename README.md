@@ -1,12 +1,48 @@
-# React + Vite
+# 📱 React JS - Mobile App UI (Intern/Fresher Qualifier Task)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built as part of the **React JS Intern/Fresher Qualifier Assignment**.  
+The goal was to implement the given **Adobe XD design** into a pixel-perfect React app with proper navigation and deployment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Pixel-perfect UI based on the [Adobe XD design](https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd).
+- Mobile app interface **centered on the webpage** (375x812px view).
+- Smooth navigation between screens using **React Router**.
+- Clean, modular, and reusable components.
+- Deployed on **Vercel** for easy access.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React JS (Vite)**
+- **React Router DOM**
+- **Tailwind CSS** (for styling)
+- **Netlify** (for hosting)
+
+---
+
+## 📂 Project Structure
+
+react-assignment/  
+│── src/  
+│   ├── context/       → Reusable components (UserContext)  
+│   ├── pages/         → Page components (Account, Register, Login, Welcome, etc.)  
+│   ├── App.jsx        → Main app with routes  
+│   └── main.jsx       → Entry point  
+│── public/            → Static assets  
+│── package.json  
+│── tailwind.config.js  
+│── README.md  
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository  {git clone "repo_link"}
+2. Change directory      {cd POPX}
+3. Go to POPx file
+4. Open terinal
+5. Node module command: npm install
+6. Run command: npm run dev
+7. Exit
