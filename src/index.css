@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+* {
+  .all {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    width: 25rem;
+    height: 100%;
+  }
+}
